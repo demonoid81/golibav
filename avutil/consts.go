@@ -1,0 +1,8 @@
+package golibavutil
+
+// #include <libavutil/avutil.h>
+import "C"
+
+const (
+	TimeBase = C.AV_TIME_BASE
+)
